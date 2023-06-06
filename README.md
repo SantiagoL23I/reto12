@@ -1,22 +1,22 @@
 # reto12
-##endswith 
-#devuelve true si la cadena termina con el valor que se le especifique, si no lo hace develve false
-##starswith 
-#devuelve true si la cadena empieza con el valor que se le especifique, si no lo hace develve false
-##isalpha 
-#devuelve true si loscaracteres sin letras
-##isalnum
-#devuelve true si son caracteres alfanumericos
-##isdigit
-#devuelve true si lo caracteres son digitos
- ##isspace
-#devuelve true si lo caracteres son espacios en blanco
-##ititle 
-#devuelve true solo si las paabras en un texto empiezan en mayuscula
-##islower
-#devuelve true si todos los caracteres son minusculas
-##ISUPPER 
-#DEVUELVE TRUE SI TODOS LOS CARACTERES ESTAN EN MAYUSCULA
+## endswith 
+# devuelve true si la cadena termina con el valor que se le especifique, si no lo hace develve false
+## starswith 
+# devuelve true si la cadena empieza con el valor que se le especifique, si no lo hace develve false
+## isalpha 
+# devuelve true si loscaracteres sin letras
+## isalnum
+# devuelve true si son caracteres alfanumericos
+## isdigit
+# devuelve true si lo caracteres son digitos
+ ## isspace
+# devuelve true si lo caracteres son espacios en blanco
+## istitle 
+# devuelve true solo si las paabras en un texto empiezan en mayuscula
+## islower
+# devuelve true si todos los caracteres son minusculas
+## ISUPPER 
+# DEVUELVE TRUE SI TODOS LOS CARACTERES ESTAN EN MAYUSCULA
 2. #vocales
 ``psudocode 
 file = open ( 'Archivo.text') # Importael archivo de texto
