@@ -17,7 +17,7 @@
 ### devuelve true si todos los caracteres son minusculas
 # ISUPPER 
 ### DEVUELVE TRUE SI TODOS LOS CARACTERES ESTAN EN MAYUSCULA
-2. #vocales
+ # vocales
 ``psudocode 
 file = open ( 'Archivo.text') # Importael archivo de texto
 texto= (file.read()) # El archivo de texto se depositan una variable
@@ -27,8 +27,9 @@ consontante= 0 # Variable consonante que sera igual a 0
 for j in range (0,len(lista)): # For donde se recorre cada letra que hay en la lista
    consontante += (texto.count(lista[j])) # La consonante = la cantidad de palabras que hay en el texto y que hay en la lista
 print("La cantidad de consonantes son:" +str(vocales))
-3. #consonantes
-4. ``pseudocode
+``
+# consonantes
+ ``pseudocode
 file= open ( 'Archivo.text') # Importael archivo de texto
 texto= (file.read()) # El archivo de texto seepositaen una variable
 texto=texto.lower() # Vuelvetodo el texto en minusculas
@@ -38,7 +39,7 @@ for j in range (0,len(lista)): # Recorrela lista desde el incio hasta el final
    vocales += (texto.count(lista[j])) # Las vocales = la cantidad de palabras que hay en el texto y que hay en la lista
 print("La cantidad de consonantes es" +str(consonante))
  ``
-#3 palabras que se repiten
+# 3 palabras que se repiten
 ``pseudocode
 file = open('texto.txt', "r")  dicpalabras = {} 
 # Se crea un diccionario en donde se guardaran todas las palabras del texto  for line in file: 
@@ -55,7 +56,7 @@ file = open('texto.txt', "r")  dicpalabras = {} 
  for palabra, veces in c50palabras:
 # se imprime las 50 palabras y la cantidad de veces     print(palabra,":",veces)
   ``
-#4 listado de destinatario recibido
+# 4 listado de destinatario recibido
 ```pseudocode
 def obtener_destinatarios(archivo):
     destinatarios = {}
@@ -77,7 +78,7 @@ resultados = obtener_destinatarios(archivo)
 for correo, cantidad in resultados.items():
     print(f'{correo}: {cantidad}')
   ```
-#5 listado mensajes enviados 
+# 5 listado mensajes enviados 
 ``psudocode
 def mensajesdiarios(texto: str) -> dict:
     recibidos = []  # Lista de segmentos del texto que contienen la información de la fecha.
